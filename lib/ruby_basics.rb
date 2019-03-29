@@ -12,7 +12,7 @@ def argue(phrase)
 end
 
 def greeting(greeting = "Hi there,", name)
-  "#{greeting} {name}!"
+  "#{greeting}, #{name}!"
 end
 
 def return_a_value
